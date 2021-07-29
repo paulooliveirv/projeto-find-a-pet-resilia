@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root{
+    --cor0: #F8EDEB;
+    --cor1: #FCD5CE;
+    --cor2: #FFB5A7;
+    --cor4: #91DCCB;
+    --cor5: #52AA93;
+    --cor6: #EBD28B;
+    --cor7: #494746;
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito",Helvetica, Arial;
+    color: var(--cor7);
+    background-color: var(--cor1);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img{
+    display: flex;
+    max-width: 100%;
+}
+
+.menu-bg{
+    background: var(--cor2);
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: var(--cor7);
+}
+
+.menu-logo a {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s
+}
+
+.nav-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-menu a{
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.menu-logo a:hover{
+    color: var(--cor5);
+    font-size: 45px;
+}
+.nav-menu a:hover{
+    color: var(--cor5);
+    font-size: 22px;
+}
+
+.introducao-adocao{
+    font-size: 48px;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+.fotos-adocao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.adocao li img{
+    max-width: 960px;
+    border-radius: 10px;
+    border: 3px solid var(--cor7);
+    width: 200px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
